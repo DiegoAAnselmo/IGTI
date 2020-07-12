@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./CSS/tm10.css">
+        <script src="./JS/tm10.js"></script>
+    </head>
+    <body onload="gerarCor()">
+        <h1> Gerador de Cor RGB </h1>
+        <div id="code"></div>
+        <div id="cor"></div>
+        <input type="range" onchange="gerarCor()" id="red" min="0" max="255" value="0"/><span id="txtRed">R: 0</span>
+        <input type="range" onchange="gerarCor()" id="green" min="0" max="255" value="0"/><span id="txtGreen">G: 0</span>
+        <input type="range" onchange="gerarCor()" id="blue" min="0" max="255" value="0"/><span id="txtBlue">B: 0</span>
+        <input type="range" onchange="gerarCor()" id="opt" min="0" max="10" value="10"/><span id="txtOpt">A: 1</span>
+
+    </body>
+</html>
